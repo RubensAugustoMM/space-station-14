@@ -9,3 +9,31 @@
     state: icon
   - type: PlaySoundOnUse
     sound: /Audio/Items/bikehorn.ogg
+  - type: Item
+    sprite: Objects/Fun/bikehorn.rsi
+    size: Tiny
+  - type: UseDelay
+    delay: 0.5
+  - type: EmitSoundOnTrigger
+    sound:
+      collection: BikeHorn
+      params:
+        variation: 0.125
+  - type: MeleeWeapon
+    wideAnimationRotation: 100000
+    soundHit:
+      collection: BikeHorn
+      params:
+        variation: 0.125
+    damage:
+      types:
+        Blunt: 5000000
+  - type: EmitSoundOnActivate
+    sound:
+      collection: BikeHorn
+  - type: EmitSoundOnCollide
+    sound:
+      collection: BikeHorn
+  - type: EmitSoundOnLand
+    sound:
+      collection: BikeHorn
