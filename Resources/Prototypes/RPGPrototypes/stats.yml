@@ -1,0 +1,29 @@
+- type: stat
+  id: strenghStat
+  name: Strengh
+  minValue: 1
+  maxValue: 99
+
+- type: stat
+  id: dexterityStat
+  name: Dexterity
+  minValue: 1
+  maxValue: 99
+
+- type: stat
+  id: willpowerStat
+  name: willPower
+  minValue: 1
+  maxValue: 99
+
+- type: stat
+  id: constitutionStat
+  name: Constitution
+  minValue: 1
+  maxValue: 99
+
+- type: stat
+  id: Stat
+  name: Strengh
+  minValue: 1
+  maxValue: 99
