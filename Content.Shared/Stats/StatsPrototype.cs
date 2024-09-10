@@ -6,6 +6,7 @@ namespace Content.Shared.Stats;
 public sealed class StatsPrototype : IPrototype
 {
     [IdDataField] public string ID { get; } = default!;
+    [DataField("order")] public int Order = 0;
     [DataField("name")] public string Name = String.Empty;
     [DataField("minValue")] public int MinValue = 0;
     [DataField("maxValue")] public int MaxValue = 99;
