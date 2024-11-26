@@ -68,6 +68,7 @@ public abstract partial class SharedStatsSystem : EntitySystem
             return;
         }
 
+        _sawmill.Info($"Stat {stat} define with sucess!");
         SetStatValue(uid, statsPrototype, value, component);
     }
 

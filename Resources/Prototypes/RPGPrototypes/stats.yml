@@ -1,34 +1,34 @@
 - type: stat
-  id: strenghStat
-  name: Strengh
+  id: strength
+  name: stat-strength-name
   minValue: 1
   maxValue: 99
   order: 0
 
 - type: stat
-  id: dexterityStat
-  name: Dexterity
+  id: dexterity
+  name: stat-dexterity-name
   minValue: 1
   maxValue: 99
   order: 1
 
 - type: stat
-  id: willpowerStat
-  name: willPower
+  id: willPower
+  name: stat-willPower-name
   minValue: 1
   maxValue: 99
   order: 2
 
 - type: stat
-  id: constitutionStat
-  name: Constitution
+  id: constitution
+  name: stat-constitution-name
   minValue: 1
   maxValue: 99
   order: 3
 
 - type: stat
-  id: Stat
-  name: Strengh
+  id: inteligence
+  name: stat-intelligence-name
   minValue: 1
   maxValue: 99
   order: 4
