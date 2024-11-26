@@ -5,6 +5,14 @@
   id: BaseMob
   abstract: true
   components:
+  - type: PlayerStatusUI
+  - type: Stats
+    baseStats:
+      strength: 10
+      dexterity: 10
+      willPower: 10
+      constitution: 10
+      inteligence: 10
   - type: Sprite
     noRot: true
     drawdepth: Mobs
