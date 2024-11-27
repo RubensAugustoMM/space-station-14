@@ -8,11 +8,17 @@
   - type: PlayerStatusUI
   - type: Stats
     baseStats:
-      strength: 10
+      strength: 60
       dexterity: 10
       willPower: 10
       constitution: 10
       inteligence: 10
+  - type: StatScaledDamage
+    modifiers:
+      coefficients:
+        Piercing: 1
+        Slash: 1
+        Blunt: 1
   - type: Sprite
     noRot: true
     drawdepth: Mobs

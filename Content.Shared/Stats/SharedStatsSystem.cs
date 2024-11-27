@@ -21,6 +21,8 @@ public abstract partial class SharedStatsSystem : EntitySystem
     {
         SubscribeLocalEvent<StatsComponent, ComponentInit>(OnCompInit);
 
+        InitializeScalling();
+
         _sawmill = Logger.GetSawmill("stat");
     }
 
@@ -31,7 +33,7 @@ public abstract partial class SharedStatsSystem : EntitySystem
             component.Stats[key] = default;
             SetStatValue(uid, key,val,component);
         }
-        Dirty(component);
+        Dirty(uid,component);
     }
 
     #region Stat Setters
