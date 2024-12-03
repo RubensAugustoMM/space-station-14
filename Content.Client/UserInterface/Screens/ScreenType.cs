@@ -9,5 +9,9 @@ public enum ScreenType
     /// <summary>
     ///     The classic SS13 user interface.
     /// </summary>
-    Separated
+    Separated,
+    /// <summary>
+    ///  UI Based on the is12 server
+    /// </summary>
+    CompletelySeparated
 }
